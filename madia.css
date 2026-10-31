@@ -1,0 +1,1202 @@
+@media (max-width: 769px) {
+  .page-layout {
+    grid-template-columns: 1fr;
+  }
+  .stat-card {
+    text-align: right;
+  }
+  .sidebar {
+   visibility: hidden;
+   height: 0px;
+  }
+   .chart-card{
+  
+    min-height: 70vh;
+   }
+  table{
+
+    font-size: 10000px;
+    width: 100%;
+  }
+  .trans-user strong,span{
+  
+  font-size: x-small;
+  width: 100%;
+}
+  .content-grid {
+    grid-template-columns: 1fr;
+    direction: rtl;
+  }
+
+  .bottom-grid {
+    grid-template-columns: 1fr;
+    direction: rtl;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .page-layout {
+    grid-template-columns: 82px 1fr;
+    gap: 18px;
+    min-height: 100vh;
+    padding: 14px;
+    align-items: start;
+  }
+.trans-user strong,span{
+  
+  font-size: x-small;
+  width: 100%;
+}
+  .sidebar {
+    width: 82px;
+    padding: 10px 8px;
+    gap: 18px;
+    height: calc(100vh - 28px);
+    position: sticky;
+    top: 14px;
+    justify-items: center;
+  }
+
+  .sidebar-brand {
+    grid-template-columns: 1fr;
+    gap: 0;
+    justify-items: center;
+  }
+
+  .sidebar-brand .brand-text,
+  .quick-actions h3,
+  .quick-item span:first-child,
+  .menu-item span:first-child {
+    display: none;
+  }
+
+  .logo-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    font-size: 20px;
+  }
+
+  .sidebar-menu {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .menu-item {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 14px 10px;
+    min-height: 54px;
+  }
+
+  .menu-item .icon {
+    justify-self: center;
+    font-size: 22px;
+  }
+
+  .quick-actions {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .quick-item {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    min-height: 54px;
+  }
+
+  .quick-icon {
+    justify-self: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 14px;
+    font-size: 22px;
+  }
+
+
+  .main-content {
+    gap: 18px;
+    min-height: calc(100vh - 28px);
+    padding-left: 0;
+  }
+
+  .topbar {
+    padding: 18px 20px;
+    grid-template-columns: 1fr auto;
+    gap: 16px;
+    border-radius: 24px;
+  }
+
+  .topbar-right {
+    gap: 14px;
+  }
+
+  .brand-inline {
+    grid-template-columns: 54px 1fr;
+    gap: 12px;
+  }
+
+  .brand-inline .logo-box.large {
+    width: 54px;
+    height: 54px;
+    border-radius: 16px;
+    font-size: 20px;
+  }
+
+  .brand-inline h1 {
+    font-size: 34px;
+  }
+
+  .brand-inline p {
+    font-size: 15px;
+  }
+
+  .status-badge {
+    padding: 7px 14px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .topbar-left {
+    gap: 10px;
+  }
+
+  .icon-btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+
+  .notify-count {
+    width: 19px;
+    height: 19px;
+    font-size: 10px;
+    top: -4px;
+    left: -4px;
+  }
+
+  .user-card {
+    grid-template-columns: 42px 1fr;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 16px;
+  }
+
+  .user-card img {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+  }
+
+  .user-info h4 {
+    font-size: 18px;
+  }
+
+  .user-info p {
+    font-size: 13px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+
+  .stat-card {
+    padding: 24px 18px;
+    min-height: 190px;
+    border-radius: 24px;
+  }
+
+  .stat-card h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .stat-card h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+
+  .positive,
+  .negative {
+    font-size: 15px;
+  }
+
+
+  .content-grid {
+    grid-template-columns: 1fr 430px;
+    gap: 18px;
+    direction: ltr;
+  }
+
+  .transactions,
+  .side-widgets {
+    direction: rtl;
+  }
+
+  .transactions,
+  .activities,
+  .bills,
+  .payments,
+  .chart-card,
+  .account-summary,
+  .budget-overview,
+  .category-card {
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .section-head {
+    margin-bottom: 18px;
+  }
+
+  .section-head h3 {
+    font-size: 18px;
+  }
+
+  .section-head a {
+    font-size: 15px;
+  }
+
+  .activity-card {
+    grid-template-columns: 42px 1fr;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .activity-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+  }
+
+  .activity-text h4 {
+    font-size: 18px;
+  }
+
+  .activity-text p {
+    font-size: 14px;
+  }
+
+  .activity-text small {
+    font-size: 13px;
+  }
+
+  .show-more {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+
+  .bills-total h2 {
+    font-size: 30px;
+  }
+
+  .bills-total p {
+    font-size: 15px;
+  }
+
+  .bills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .bill-box {
+    padding: 16px 10px;
+    border-radius: 16px;
+  }
+
+  .bill-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .bill-box h4 {
+    font-size: 14px;
+  }
+
+  .bill-box strong {
+    font-size: 16px;
+  }
+
+  .bill-box span {
+    font-size: 12px;
+  }
+
+  /* transaction table */
+  .transactions {
+    width: 100%;
+  /* background-color:#000000; */
+    overflow: hidden;
+  }
+.content-grid{
+  display: flex;
+  flex-direction: column;
+}
+
+.bills {
+  width: 50%;
+  margin-right: 50px;
+  /* background-color: #000000; */
+}
+  .table-wrap {
+
+    overflow-x: auto;
+  }
+  .side-widgets {
+    display: flex;
+    width: 100%;
+
+  }
+  table {
+    min-width: 760px;
+    table-layout: auto;
+  }
+
+  thead th {
+    font-size: 14px;
+    padding-bottom: 14px;
+    white-space: nowrap;
+  }
+
+  tbody td {
+    padding: 14px 0;
+    font-size: 14px;
+  }
+
+  .trans-user {
+    grid-template-columns: 40px 1fr;
+    gap: 10px;
+  }
+
+  .trans-user img,
+  .avatar-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .trans-user strong {
+    font-size: 16px;
+  }
+
+  .trans-user span {
+    font-size: 13px;
+  }
+
+  .pill {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .amount {
+    font-size: 16px;
+  }
+
+  .bottom-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "budget chart"
+      "budget summary"
+      "payments payments";
+    gap: 18px;
+    direction: ltr;
+  }
+
+  .payments,
+  .middle-stack,
+  .budget-stack {
+    direction: rtl;
+  }
+
+  .budget-stack {
+    grid-area: budget;
+    gap: 18px;
+  }
+
+  .middle-stack {
+    display: contents;
+  }
+
+  .chart-card {
+    height: 55vh;
+    /* background-color:#000000; */
+    grid-area: chart;
+  }
+
+  .account-summary {
+    grid-area: summary;
+  }
+
+  .payments {
+    grid-area: payments;
+  }
+
+  .pay-cards,
+  .budget-stack {
+    gap: 16px;
+  }
+
+  .card-wrap {
+    height: 220px;
+  }
+
+  .card-face {
+    padding: 18px 16px;
+    border-radius: 18px;
+  }
+
+  .mini-badge {
+    font-size: 13px;
+    padding: 7px 12px;
+  }
+
+  .chip {
+    width: 52px;
+    height: 34px;
+  }
+
+  .chip::after {
+    inset: 9px 13px;
+  }
+
+  .card-brand {
+    font-size: 28px;
+  }
+
+  .card-number,
+  .paypal-title {
+    font-size: 18px;
+  }
+
+  .card-bottom span,
+  .paypal-bottom span {
+    font-size: 13px;
+  }
+
+  .card-bottom strong,
+  .paypal-bottom strong {
+    font-size: 16px;
+  }
+
+  .black-strip {
+    height: 44px;
+  }
+
+  .signature-text {
+    font-size: 13px;
+  }
+
+  .signature-box {
+    height: 34px;
+    font-size: 14px;
+  }
+
+  .signature-box::after {
+    right: 82px;
+  }
+
+  .cvv-box {
+    width: 62px;
+  }
+
+  .cvv-number {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  
+  .chart-legend {
+    gap: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+
+  .fake-chart {
+    height: 180px;
+    padding: 6px 8px 0;
+  }
+
+  .bar-group {
+    min-width: 58px;
+  }
+
+  .bar-group span {
+    bottom: -28px;
+    font-size: 13px;
+  }
+
+  .bar {
+    width: 16px;
+  }
+
+  .summary-list {
+    gap: 14px;
+  }
+
+  .summary-item {
+    grid-template-columns: 46px 1fr auto;
+    gap: 12px;
+    padding: 14px;
+    border-radius: 16px;
+  }
+
+  .summary-icon {
+    width: 46px;
+    height: 46px;
+    font-size: 18px;
+  }
+
+  .summary-content h4 {
+    font-size: 16px;
+  }
+
+  .summary-content p {
+    font-size: 13px;
+  }
+
+  .summary-amount {
+    font-size: 16px;
+  }
+
+  .budget-box {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .budget-head strong {
+    font-size: 18px;
+  }
+
+  .budget-mid {
+    gap: 10px;
+  }
+
+  .green-amount {
+    font-size: 18px;
+  }
+
+  .used-amount,
+  .budget-progress-row > span {
+    font-size: 13px;
+  }
+
+  .category-card .cat-top {
+    margin-bottom: 16px;
+  }
+
+  .cat-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    font-size: 18px;
+  }
+
+  .category-card h4 {
+    font-size: 16px;
+  }
+
+  .category-card p {
+    font-size: 13px;
+  }
+
+  .cat-mid strong {
+    font-size: 16px;
+  }
+
+  .remain {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .page-layout {
+    grid-template-columns: 86px 1fr;
+    gap: 18px;
+    min-height: 100vh;
+    padding: 10px;
+    align-items: start;
+  }
+
+  .sidebar {
+    width: 86px;
+    height: calc(100vh - 20px);
+    padding: 12px 8px;
+    gap: 18px;
+    position: sticky;
+    top: 10px;
+    justify-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .sidebar-brand {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 0;
+  }
+
+  .sidebar-brand .brand-text,
+  .quick-actions h3,
+  .menu-item span:first-child,
+  .quick-item span:first-child {
+    display: none;
+  }
+
+  .logo-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    font-size: 20px;
+  }
+
+  .sidebar-menu,
+  .quick-actions {
+    width: 100%;
+  }
+
+  .sidebar-menu {
+    gap: 10px;
+  }
+
+  .menu-item {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 12px 8px;
+    min-height: 54px;
+  }
+
+  .menu-item .icon {
+    justify-self: center;
+    font-size: 22px;
+  }
+
+  .quick-actions {
+    gap: 12px;
+  }
+
+  .quick-item {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    min-height: 54px;
+  }
+
+  .quick-icon {
+    justify-self: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    font-size: 22px;
+  }
+
+
+  .main-content {
+    gap: 18px;
+    min-height: calc(100vh - 20px);
+    padding-left: 0;
+  }
+
+  .card {
+    border-radius: 24px;
+  }
+
+  .topbar {
+    padding: 18px 20px;
+    grid-template-columns: 1fr auto;
+    gap: 14px;
+    border-radius: 24px;
+  }
+
+  .topbar-right {
+    gap: 14px;
+  }
+
+  .brand-inline {
+    grid-template-columns: 54px 1fr;
+    gap: 12px;
+  }
+
+  .brand-inline .logo-box.large {
+    width: 54px;
+    height: 54px;
+    border-radius: 16px;
+    font-size: 20px;
+  }
+
+  .brand-inline h1 {
+    font-size: 32px;
+  }
+
+  .brand-inline p {
+    font-size: 15px;
+    margin-top: 2px;
+  }
+
+  .status-badge {
+    padding: 7px 14px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .topbar-left {
+    gap: 10px;
+  }
+
+  .icon-btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+
+  .notify-count {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    top: -4px;
+    left: -4px;
+  }
+
+  .user-card {
+    grid-template-columns: 42px 1fr;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 16px;
+  }
+
+  .user-card img {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+  }
+
+  .user-info h4 {
+    font-size: 17px;
+  }
+
+  .user-info p {
+    font-size: 13px;
+  }
+
+
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+
+  .stat-card {
+    padding: 24px 18px;
+    min-height: 190px;
+    border-radius: 24px;
+  }
+
+  .stat-card h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .stat-card h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+
+  .positive,
+  .negative {
+    font-size: 15px;
+  }
+
+
+  .content-grid {
+    grid-template-columns: 1fr 400px;
+    gap: 18px;
+    direction: ltr;
+  }
+
+  .transactions,
+  .side-widgets {
+    direction: rtl;
+  }
+
+  .side-widgets {
+    gap: 18px;
+  }
+
+  .transactions,
+  .activities,
+  .bills,
+  .payments,
+  .chart-card,
+  .account-summary,
+  .budget-overview,
+  .category-card {
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .section-head {
+    margin-bottom: 18px;
+  }
+
+  .section-head h3 {
+    font-size: 18px;
+  }
+
+  .section-head a {
+    font-size: 15px;
+  }
+
+
+  .activity-card {
+    grid-template-columns: 42px 1fr;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .activity-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+  }
+
+  .activity-text h4 {
+    font-size: 18px;
+  }
+
+  .activity-text p {
+    font-size: 14px;
+  }
+
+  .activity-text small {
+    font-size: 13px;
+  }
+
+  .show-more {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+
+
+  .bills-total h2 {
+    font-size: 30px;
+  }
+
+  .bills-total p {
+    font-size: 15px;
+  }
+
+  .bills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .bill-box {
+    padding: 16px 10px;
+    border-radius: 16px;
+  }
+
+  .bill-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .bill-box h4 {
+    font-size: 14px;
+  }
+
+  .bill-box strong {
+    font-size: 16px;
+  }
+
+  .bill-box span {
+    font-size: 12px;
+  }
+
+
+  .transactions {
+    overflow: hidden;
+  }
+
+  .table-wrap {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 760px;
+    table-layout: auto;
+  }
+
+  thead th {
+    font-size: 14px;
+    padding-bottom: 14px;
+    white-space: nowrap;
+  }
+
+  tbody td {
+    padding: 12px 0;
+    font-size: 14px;
+  }
+
+  .trans-user {
+    grid-template-columns: 40px 1fr;
+    gap: 10px;
+  }
+
+  .trans-user img,
+  .avatar-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .trans-user strong {
+    font-size: 16px;
+  }
+
+  .trans-user span {
+    font-size: 13px;
+  }
+
+  .pill {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .amount {
+    font-size: 16px;
+  }
+
+
+  .bottom-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "budget chart"
+      "budget summary"
+      "payments payments";
+    gap: 18px;
+    direction: ltr;
+  }
+
+  .payments,
+  .middle-stack,
+  .budget-stack {
+    direction: rtl;
+  }
+
+  .budget-stack {
+    grid-area: budget;
+    gap: 18px;
+  }
+
+  .middle-stack {
+    display: contents;
+  }
+
+  .chart-card {
+    grid-area: chart;
+  }
+
+  .account-summary {
+    grid-area: summary;
+  }
+
+  .payments {
+    grid-area: payments;
+  }
+
+  .pay-cards,
+  .budget-stack {
+    gap: 16px;
+  }
+
+  .card-wrap {
+    height: 220px;
+  }
+
+  .card-face {
+    padding: 18px 16px;
+    border-radius: 18px;
+  }
+
+  .mini-badge {
+    font-size: 13px;
+    padding: 7px 12px;
+  }
+
+  .chip {
+    width: 52px;
+    height: 34px;
+  }
+
+  .chip::after {
+    inset: 9px 13px;
+  }
+
+  .card-brand {
+    font-size: 28px;
+  }
+
+  .card-number,
+  .paypal-title {
+    font-size: 18px;
+  }
+
+  .card-bottom span,
+  .paypal-bottom span {
+    font-size: 13px;
+  }
+
+  .card-bottom strong,
+  .paypal-bottom strong {
+    font-size: 16px;
+  }
+
+  .black-strip {
+    height: 44px;
+  }
+
+  .signature-text {
+    font-size: 13px;
+  }
+
+  .signature-box {
+    height: 34px;
+    font-size: 14px;
+  }
+
+  .signature-box::after {
+    right: 82px;
+  }
+
+  .cvv-box {
+    width: 62px;
+  }
+
+  .cvv-number {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  /* chart */
+  .chart-legend {
+    gap: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+
+  .fake-chart {
+    height: 180px;
+    padding: 6px 8px 0;
+  }
+
+  .bar-group {
+    min-width: 58px;
+  }
+
+  .bar-group span {
+    bottom: -28px;
+    font-size: 13px;
+  }
+
+  .bar {
+    width: 16px;
+  }
+
+  /* summary */
+  .summary-list {
+    gap: 14px;
+  }
+
+  .summary-item {
+    grid-template-columns: 46px 1fr auto;
+    gap: 12px;
+    padding: 14px;
+    border-radius: 16px;
+  }
+
+  .summary-icon {
+    width: 46px;
+    height: 46px;
+    font-size: 18px;
+  }
+
+  .summary-content h4 {
+    font-size: 16px;
+  }
+
+  .summary-content p {
+    font-size: 13px;
+  }
+
+  .summary-amount {
+    font-size: 16px;
+  }
+
+  /* budget */
+  .budget-box {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .budget-head strong {
+    font-size: 18px;
+  }
+
+  .budget-mid {
+    gap: 10px;
+  }
+
+  .green-amount {
+    font-size: 18px;
+  }
+
+  .used-amount,
+  .budget-progress-row > span {
+    font-size: 13px;
+  }
+
+  .category-card .cat-top {
+    margin-bottom: 16px;
+  }
+
+  .cat-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    font-size: 18px;
+  }
+
+  .category-card h4 {
+    font-size: 16px;
+  }
+
+  .category-card p {
+    font-size: 13px;
+  }
+
+  .cat-mid strong {
+    font-size: 16px;
+  }
+
+  .remain {
+    font-size: 12px;
+  }
+}
